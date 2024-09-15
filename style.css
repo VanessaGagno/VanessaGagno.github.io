@@ -1,0 +1,104 @@
+body {
+    background-color: #FFE5EC;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+
+}
+
+#logo {
+    margin: 0px;
+    padding: 8px;
+    font-family: Pacifico, cursive;
+    width: 50%;
+}
+
+ul  {
+    margin: 0px;
+}
+
+body > header {
+    background-color: #FB6F92;
+    color: #FFC2D1 ;
+    font-family: Pacifico;
+    display:flex ;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav-ul {
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 8px ;
+    margin: 16px ;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+body > main article {
+    width: 70%;
+    margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content > div {
+    width: 70%;
+}
+
+form {
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+body > footer {
+    background-color: #FB6F92;
+    display: flex;
+}
+
+body > footer > h2 {
+    font-family: Pacifico, cursive;
+    color: #FFC2D1 ;
+}
+
+img {
+    border-radius: 10%;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    font-family: Pacifico;
+    margin-left: 12px;
+}
+
+#footer-ul > div > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+article {
+    font-family: 'Courier New', Courier, monospace;
+}
